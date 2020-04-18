@@ -50,5 +50,5 @@ app.get("/economy", async function (req, res) {
   await res.send(economicDataParsed);
 });
 
-const port = process.env.PORT || 3051;
+const port = process.env.PORT || 80;
 app.listen(port, function () {});
