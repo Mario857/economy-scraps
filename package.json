@@ -2,26 +2,31 @@
   "name": "economy-scraps",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
-  "scripts": {
-    "start": "node main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mario857/economy-scraps.git"
   },
   "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mario857/economy-scraps/issues"
   },
   "homepage": "https://github.com/Mario857/economy-scraps#readme",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "puppeteer": "^3.0.0"
   },
-  "engines": {
-    "node": "13.2.0"
-  }
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
