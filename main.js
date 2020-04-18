@@ -3,7 +3,7 @@ const app = express();
 const puppeteer = require("puppeteer");
 
 app.get("/economy", async function (req, res) {
-  const browser = await puppeteer.launch({args: ['--no-sandbox']});
+  const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
   const page = await browser.newPage();
   await page.goto("https://tradingeconomics.com/");
   await page.click("#ctl00_ContentPlaceHolder1_ctl04_LinkButton1");
