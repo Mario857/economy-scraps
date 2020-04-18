@@ -2,6 +2,9 @@
   "name": "economy-scraps",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "12.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mario857/economy-scraps.git"
