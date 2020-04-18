@@ -51,4 +51,7 @@ app.get("/economy", async function (req, res) {
 });
 
 const port = process.env.PORT || 3051;
-app.listen(port, function () {});
+app.listen(port, function () {
+  const exec = require('child_process').exec;
+  exec('sh install_required_packages.sh');
+});
